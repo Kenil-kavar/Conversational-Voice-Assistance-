@@ -5,7 +5,6 @@ langchain_community
 pypdf
 bs4
 arxiv
-espeak-py
 pymupdf
 wikipedia
 langchain-text-splitters
