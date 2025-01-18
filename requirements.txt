@@ -9,6 +9,7 @@ espeak-py
 pymupdf
 wikipedia
 langchain-text-splitters
+espeak-ng-python
 lxml
 langchain-openai
 faiss-cpu
