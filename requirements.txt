@@ -20,4 +20,5 @@ langchain_huggingface
 fastapi
 uvicorn
 langserve
+pyttsx3
 bs4
