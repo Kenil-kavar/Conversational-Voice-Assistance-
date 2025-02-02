@@ -20,10 +20,10 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT"] = "Voice Assistance"
-os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
+st.secrets["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+st.secrets["LANGCHAIN_TRACING_V2"] = "true"
+st.secrets["LANGCHAIN_PROJECT"] = "Voice Assistance"
+st.secrets["HF_TOKEN"] = os.getenv("HF_TOKEN")
 
 # Initialize the embeddings
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
